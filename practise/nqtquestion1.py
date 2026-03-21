@@ -3,7 +3,7 @@ i = int(input())
 def cal_price(i):
     if i<=2:
         price = 100*i
-    elif i<=5:
+    elif i>=2 and i<=5:
         k = i - 2
         price = 2*100 + k*50
     else:
